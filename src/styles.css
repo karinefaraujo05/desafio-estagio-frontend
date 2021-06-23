@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  outline:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F0F0F0;
+  font-family: sans-serif;
+}
+
+.page{
+  margin: 12px 10% 10px 10%;
+  max-width: 75%;
+  background-color: #FFFFFF;
+}
+.topbar{
+  margin: 3%;
+  max-width: 120px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+}
+
+.container{
+  max-width: 100%;
+  background-image: url(../assets/blackfriday-bg-emails.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  display: grid;
+}
+
+.container .badge{
+  margin-top: 3%;
+  margin-left: 45%;
+  margin-right: 40%;
+  margin-bottom: 2%;
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+.container .counter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note{
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+  background-color: #F0F0F0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: row;
+}
+
+.line-text{
+  margin: 15px;
+  flex-direction: column;
+  border-left: 8px solid #ffc200;
+  width:6;
+  border-radius: 5px;
+}
+
+.line{
+  text-align: left;
+}
+
+.check{
+  height: 20px;
+}
+
+button{
+  align-self: center;
+  border: 1px;
+  border-radius: 4px;
+  margin: 20px;
+  margin-inline: 40%;
+  height: 50px;
+  width: 220px;
+  background-color: #FFC200;
+}
+
+.text_button{
+  font-size: 20px;
+  font-weight: bold;
+  color: #313336;
+}
+
+.social-buttons{
+  background-color: #313336;
+  display: flex;
+}
+
+.icons{
+  margin: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.footer{
+  margin-inline: 30%;
+  text-align: center;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+  color: #1b81a2;
+  transition: opacity 0.2s;
+}
+
+p{
+  font-size: 25px;
+  margin: 30px;
+  color: #313336;
+}
+
+h1{
+  margin-inline: 20%;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+h2{ 
+  margin: 30px;
+  font-size: 17px;
+  font-style: normal;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+
